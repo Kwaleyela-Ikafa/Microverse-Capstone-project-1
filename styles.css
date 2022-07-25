@@ -273,3 +273,17 @@
     width: 300px;
   }
 }
+
+/* About page CSS */
+
+.about-cont{
+    border: 2px solid #d3d3d3;
+    background-color: white;
+}
+
+.about-westtech {
+    /* margin-left: 10px; */
+    margin-top: 15px;
+    font-family: "Lato", serif;
+    text-align: center;
+}

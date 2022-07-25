@@ -1,0 +1,229 @@
+
+/* Mobile menu */
+/* .dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #3c3a39;
+  padding: 14px 16px;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.dropdown-content a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+} */
+
+.navigation {
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: #ec5242;
+    cursor: pointer;
+}
+
+.navbar {
+    border-bottom: 1px solid darkgrey;
+}
+
+.header-h1 {
+    color: #ec5242;
+    font-family: 'cocogoose', sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.header-h5 {
+    color: #ec5242;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.header-p {
+    font-family: 'Lato', serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+}
+
+.header-p2 {
+    border: 2px solid white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.hd-p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: 'Lato', serif;
+}
+
+.header-section {
+    background-color: #d3d3d3;
+    padding-top: 45px;
+    height: 100vh;
+}
+
+/* Services */
+
+.services-section {
+    background-color: #272a31;
+    height: 100vh;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+}
+
+.section-text {
+    padding-top: 15px;
+}
+
+.h2-hr {
+    color: #ec5242;
+    width: 50px;
+    margin-left: 50%;
+}
+
+.card-1 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background: rgba(0,0,0,0.4);
+    width: 300px;
+}
+
+.card-2 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background: rgba(0,0,0,0.4);
+    width: 300px;
+}
+
+.card-3 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background: rgba(0,0,0,0.4);
+    width: 300px;
+}
+
+.h2-card {
+    color: #ec5242;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navigation {
+        text-decoration: none;
+    }
+    
+    .logo {
+        text-decoration: none;
+        color: #ec5242;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        border-bottom: 1px solid darkgrey;
+    }
+    
+    .header-h1 {
+        color: #ec5242;
+        font-family: 'cocogoose', sans-serif;
+        font-weight: 700;
+        margin: 50px;
+    }
+    
+    .header-h5 {
+        color: #ec5242;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .header-p {
+        font-family: 'Lato', serif;
+        margin-top: 20px;
+        margin-left: 50px;
+        /* below to be used for desktop */
+        font-weight: 700;
+        font-size: 30px;
+        width: 947px;
+    }
+    
+    .header-p2 {
+        border: 2px solid white;
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 475px;
+    }
+    
+    .hd-p {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-family: 'Lato', serif;
+    }
+    
+    .header-section {
+        background-color: #d3d3d3;
+        padding-top: 45px;
+        height: 100vh;
+    }
+
+    /* Services */
+
+    .services {
+        flex-direction: row;
+        position: relative;
+        top: 40%;
+    }
+
+    .card-1 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        background: rgba(0,0,0,0.4);
+        width: 300px;
+    }
+
+    .card-2 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        background: rgba(0,0,0,0.4);
+        width: 300px;
+    }
+
+    .card-3 {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        background: rgba(0,0,0,0.4);
+        width: 300px;
+    }
+}

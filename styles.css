@@ -1,7 +1,7 @@
 /* Hamburger CSS */
 
-.nav-mobile{
-    background-color:#d3d3d3;
+.nav-mobile {
+  background-color: #d3d3d3;
 }
 
 .ham-container {
@@ -81,6 +81,10 @@
   cursor: pointer;
 }
 
+.wt-logo {
+  width: 50px;
+}
+
 .navbar {
   border-bottom: 1px solid darkgrey;
 }
@@ -153,7 +157,7 @@
   display: flex;
   color: white;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   width: 300px;
 }
 
@@ -161,7 +165,7 @@
   display: flex;
   color: white;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   width: 300px;
 }
 
@@ -169,7 +173,7 @@
   display: flex;
   color: white;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   width: 300px;
 }
 
@@ -189,6 +193,92 @@
   background-color: #ec5242;
   color: #fff;
   margin-top: 35px;
+}
+
+/* About page CSS */
+
+.about-cont {
+  border: 2px solid #d3d3d3;
+  background-color: white;
+}
+
+.about-westtech {
+  margin-top: 15px;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+
+.footer-section {
+  background-color: #fff;
+  height: 200px;
+}
+
+.footer-content {
+  color: black;
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: center;
+}
+
+.footer-h3 {
+  font-family: "cocogoose", sans-serif;
+}
+
+.footer-h32 {
+  font-family: "Lato", serif;
+  padding-top: 33px;
+  position: relative;
+  right: 62px;
+}
+
+.about-logo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-size {
+  height: 400px;
+}
+
+.mobile-section {
+  display: flex;
+  background-color: #272a31;
+  flex-direction: column;
+}
+
+.partners-section {
+  color: #d3d3d3;
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partner1 {
+  font-family: "cocogoose", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.partner2 {
+  font-family: "Lato", serif;
+}
+
+.partner3 {
+  font-family: "cocogoose", sans-serif;
+}
+
+.partner4 {
+  font-family: "Lato", serif;
+}
+
+.partner5 {
+  font-family: "Lato", serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -290,42 +380,21 @@
   .disappearing-btn {
     display: none;
   }
-}
 
-/* About page CSS */
+  .mobile-section {
+    display: none;
+  }
 
-.about-cont{
-    border: 2px solid #d3d3d3;
-    background-color: white;
-}
+  .footer-section {
+    background-color: #272a31;
+    height: 200px;
+  }
 
-.about-westtech {
-    /* margin-left: 10px; */
-    margin-top: 15px;
-    font-family: "Lato", serif;
-    text-align: center;
-}
-
-.footer-section {
-  background-color: #272a31;
-  height:200px;
-}
-
-.footer-content {
-  display: flex;
-  color: white;
-  position: relative;
-  top: 50%;
-  justify-content: center;
-}
-
-.footer-h3{
-  font-family: "cocogoose", sans-serif;
-}
-
-.footer-h32 {
-  font-family: 'Lato', serif;
-  padding-top: 33px;
-  position: relative;
-  right: 62px;
+  .footer-content {
+    display: flex;
+    color: white;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+  }
 }

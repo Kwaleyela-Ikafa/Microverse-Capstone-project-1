@@ -305,3 +305,27 @@
     font-family: "Lato", serif;
     text-align: center;
 }
+
+.footer-section {
+  background-color: #272a31;
+  height:200px;
+}
+
+.footer-content {
+  display: flex;
+  color: white;
+  position: relative;
+  top: 50%;
+  justify-content: center;
+}
+
+.footer-h3{
+  font-family: "cocogoose", sans-serif;
+}
+
+.footer-h32 {
+  font-family: 'Lato', serif;
+  padding-top: 33px;
+  position: relative;
+  right: 62px;
+}

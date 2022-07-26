@@ -122,14 +122,14 @@
 .header-section {
   background-color: #d3d3d3;
   padding-top: 45px;
-  height: 100vh;
+  padding-bottom: 50%;
 }
 
 /* Services */
 
 .services-section {
   background-color: #272a31;
-  height: 100vh;
+  height: 800px;
 }
 
 .services {
@@ -175,6 +175,20 @@
 
 .h2-card {
   color: #ec5242;
+}
+
+.disappearing-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  height: 70px;
+  width: 250px;
+  background-color: #ec5242;
+  color: #fff;
+  margin-top: 35px;
 }
 
 @media screen and (min-width: 768px) {
@@ -271,6 +285,10 @@
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
     width: 300px;
+  }
+
+  .disappearing-btn {
+    display: none;
   }
 }
 

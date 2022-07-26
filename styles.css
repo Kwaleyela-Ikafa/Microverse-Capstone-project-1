@@ -283,6 +283,25 @@
   font-size: 30px;
 }
 
+/* Homepage Partner Section */
+
+.homepage-partners {
+  background-color: #272a31;
+}
+
+.homepage-footer {
+  background-color: #d3d3d3;
+  height: 200px;
+}
+
+.homefooter-content {
+  color: black;
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
   .disappearing-nav1 {
     display: none;

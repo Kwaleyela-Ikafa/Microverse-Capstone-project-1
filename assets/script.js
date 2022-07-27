@@ -14,7 +14,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 const foundersData = [
   {
     id: 1,
-    picture: '',
+    picture: './images/kmi.jpg',
     altText: 'a picture of Kwaleyela',
     founderName: 'Kwaleyela M. Ikafa',
     job: 'IT support specialist',
@@ -22,7 +22,7 @@ const foundersData = [
   },
   {
     id: 2,
-    picture: '',
+    picture: './images/lk.jpg',
     altText: 'a picture of Likando',
     founderName: 'Likando Kamuya',
     job: 'IT support specialist',
@@ -72,8 +72,8 @@ foundersData.forEach((founder) => {
   founderInformation.textContent = founder.information;
   content.appendChild(founderInformation);
 
-  founderSection .appendChild(content);
-  foundersContainer.appendChild(founderSection );
+  founderSection.appendChild(content);
+  foundersContainer.appendChild(founderSection);
 });
 
 const body = document.querySelector('body');

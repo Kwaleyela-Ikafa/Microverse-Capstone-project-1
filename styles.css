@@ -321,6 +321,7 @@
   height: 500px;
   gap: 50px;
   margin-top: 50px;
+  margin-left: 20px;
 }
 
 .founders-section {
@@ -338,6 +339,15 @@
 
 .founder-name {
   font-family: "cocogoose", sans-serif;
+}
+
+.founder-image {
+  height: 177px;
+  width: auto;
+}
+
+.founder-details {
+  padding-left: 3%;
 }
 
 @media screen and (min-width: 768px) {
@@ -464,5 +474,6 @@
     flex-direction: row;
     margin-top: 50px;
     height: 300px;
+    margin-left: 30px;
   }
 }

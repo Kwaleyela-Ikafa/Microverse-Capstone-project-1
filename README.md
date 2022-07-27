@@ -5,7 +5,7 @@
 # Project Name
 ## WesTTech
 
-** WesTTech is a tech company based in zambia that offers IT services
+WesTTech is a tech company based in zambia that offers IT services
 
 ## Built With
 

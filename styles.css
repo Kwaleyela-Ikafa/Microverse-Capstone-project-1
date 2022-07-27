@@ -318,7 +318,6 @@
 .founders {
   display: flex;
   flex-direction: column;
-  height: 500px;
   gap: 50px;
   margin-top: 50px;
   margin-left: 20px;

@@ -32,6 +32,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## LIVE DEMO
 [Live Website](https://kwaleyela-ikafa.github.io/Microverse-Capstone-project-1/)
+[Live video demo](https://www.loom.com/share/5fd02d52ef264bb59ef59a644f841b28)
 
 ## 🤝 Contributing
 

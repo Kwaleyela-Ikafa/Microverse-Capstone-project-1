@@ -1,0 +1,478 @@
+/* Hamburger CSS */
+
+.nav-mobile {
+  background-color: #d3d3d3;
+}
+
+.ham-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: #272a31;
+  margin: 6px 0;
+  margin-left: 10px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Mobile Menu */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #d3d3d3;
+  padding: 14px 16px;
+  height: 600px;
+  overflow: auto;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.dropdown-content a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.disappearing-nav2 {
+  display: none;
+}
+
+.navigation {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  color: #ec5242;
+  cursor: pointer;
+}
+
+.wt-logo {
+  width: 50px;
+}
+
+.navbar {
+  border-bottom: 1px solid darkgrey;
+}
+
+.header-h1 {
+  color: #ec5242;
+  font-family: "cocogoose", sans-serif;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.header-h5 {
+  color: #ec5242;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.header-p {
+  font-family: "Lato", serif;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+}
+
+.header-p2 {
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.hd-p {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: "Lato", serif;
+}
+
+.header-section {
+  background-color: #d3d3d3;
+  padding-top: 45px;
+  padding-bottom: 50%;
+}
+
+/* Services */
+
+.services-section {
+  background-color: #272a31;
+  height: 800px;
+  background-image: url("./images/repeat-bg.png");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+}
+
+.section-text {
+  padding-top: 15px;
+}
+
+.h2-hr {
+  color: #ec5242;
+  width: 50px;
+  margin-left: 50%;
+}
+
+.card-1 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 300px;
+}
+
+.card-2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 300px;
+}
+
+.card-3 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 300px;
+}
+
+.h2-card {
+  color: #ec5242;
+}
+
+.disappearing-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  height: 70px;
+  width: 250px;
+  background-color: #ec5242;
+  color: #fff;
+  margin-top: 35px;
+}
+
+/* About page CSS */
+
+.about-header {
+  background-image: url(./images/pexels-jessica-lewis-creative-593319.jpg);
+  padding-top: 45px;
+  padding-bottom: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-cont {
+  border: 2px solid #d3d3d3;
+  background-color: white;
+}
+
+.about-westtech {
+  margin-top: 15px;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+
+.footer-section {
+  background-color: #fff;
+  height: 200px;
+}
+
+.footer-content {
+  color: black;
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: center;
+}
+
+.footer-h3 {
+  font-family: "cocogoose", sans-serif;
+}
+
+.footer-h32 {
+  font-family: "Lato", serif;
+  padding-top: 33px;
+  position: relative;
+  right: 62px;
+}
+
+.about-logo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-size {
+  height: 400px;
+}
+
+.mobile-section {
+  display: flex;
+  background-color: #272a31;
+  flex-direction: column;
+}
+
+.partners-section {
+  color: #d3d3d3;
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.partner1 {
+  font-family: "cocogoose", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.partner2 {
+  font-family: "Lato", serif;
+  font-size: 30px;
+}
+
+.partner3 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.partner4 {
+  font-family: "Lato", serif;
+  font-size: 30px;
+}
+
+.partner5 {
+  font-family: "Lato", serif;
+  font-size: 30px;
+}
+
+/* Homepage Partner Section */
+
+.homepage-partners {
+  background-color: #272a31;
+}
+
+.homepage-footer {
+  background-color: #d3d3d3;
+  height: 200px;
+}
+
+.homefooter-content {
+  color: black;
+  display: flex;
+  position: relative;
+  top: 50%;
+  justify-content: center;
+}
+
+/* Founders Section */
+
+.founders {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.founders-section {
+  display: flex;
+}
+
+.founder-job {
+  font-family: "Lato", serif;
+  color: #ec5242;
+}
+
+.founder-history {
+  font-family: "Lato", serif;
+}
+
+.founder-name {
+  font-family: "cocogoose", sans-serif;
+}
+
+.founder-image {
+  height: 177px;
+  width: auto;
+}
+
+.founder-details {
+  padding-left: 3%;
+}
+
+@media screen and (min-width: 768px) {
+  .disappearing-nav1 {
+    display: none;
+  }
+
+  .disappearing-nav2 {
+    display: flex;
+  }
+
+  .navigation {
+    text-decoration: none;
+  }
+
+  .logo {
+    text-decoration: none;
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  .navbar {
+    border-bottom: 1px solid darkgrey;
+  }
+
+  .header-h1 {
+    color: #ec5242;
+    font-family: "cocogoose", sans-serif;
+    font-weight: 700;
+    margin: 50px;
+  }
+
+  .header-h5 {
+    color: #ec5242;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .header-p {
+    font-family: "Lato", serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    width: 947px;
+  }
+
+  .header-p2 {
+    border: 2px solid white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 475px;
+  }
+
+  .hd-p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: "Lato", serif;
+  }
+
+  .header-section {
+    background-color: #d3d3d3;
+    padding-top: 45px;
+    height: 100vh;
+  }
+
+  /* Services */
+
+  .services {
+    flex-direction: row;
+    position: relative;
+    top: 15%;
+  }
+
+  .card-1 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #393c43b3;
+    width: 300px;
+  }
+
+  .card-2 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #393c43b3;
+    width: 300px;
+  }
+
+  .card-3 {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color: #393c43b3;
+    width: 300px;
+  }
+
+  .disappearing-btn {
+    position: relative;
+    top: 30%;
+  }
+
+  .mobile-section {
+    display: none;
+  }
+
+  .footer-section {
+    background-color: #272a31;
+    height: 200px;
+  }
+
+  .footer-content {
+    display: flex;
+    color: white;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+  }
+
+  /* Founders section */
+
+  .founders {
+    flex-direction: row;
+    margin-top: 50px;
+    height: 300px;
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./assets/menu.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--========== Navigation ==========-->
+
+    <nav class="navbar nav-mobile disappearing-nav1">
+        <!-- Mobile Menu -->
+        <div class="hamburger">
+            <div id="myHamburger" class="ham-container hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="./index.html" class="nav-link">Home</a>
+              <a href="./about.html" class="nav-link">About</a>
+              <a href="#Contact-section" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-sm bg-white disappearing-nav2">
+        <!-- Desktop Menu -->
+        <div class="d-flex justify-content-around container-fluid">
+            <a class="navbar-brand logo" href="./index.html"><img class="wt-logo" src="./images/wessttech.svg" alt=""> WesTTech </a>
+        </div>
+        <div class="container d-flex justify-content-around">
+            <ul class="d-flex justify-content-between navbar-nav">
+                <li class="nav-link"><a class="navigation text-dark" href="#">About</a></li>
+                <li class="nav-link"><a class="navigation text-dark" href="#">Projects</a></li>
+                <li class="nav-link"><a class="navigation text-dark" href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <!--========== Header ==========-->
+
+    <section class="about-header">
+        <h1 class="display-1 header-h1 text-center">WesTTech</h1>
+
+        <div class="container about-cont">
+            <p class="about-westtech">
+                WesTTech is a tech company in Zambia founded by Kwaleyela M. Ikafa and Likando Kamuya.
+                WesTTech offers a variety of services
+                ranging from IT consultation to Advertising and Web Development.
+                Stay ahead of your competision by choosing WesTTech.
+            </p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="container about-logo">
+            <h2>WesTTech Zambia 2022 Logo</h2>
+            <p>The logo was designed by co-creator of WesTTech Kwaleyela M. Ikafa</p>
+            <img class="image-size" src="./images/wessttech.svg" alt="">
+        </div>
+    </section>
+
+    <section class="container-fluid mobile-section">
+        <h1 class="text-white text-center">partners</h1>
+        <div class="container partners-section">
+            <p class="partner1">mozilla</p>
+            <p class="partner2">Google</p>
+            <p class="partner3">NAVER</p>
+            <p class="partner4">daumkakao</p>
+            <p class="partner5"><img src="./images/airbnb.svg" alt="airbnb logo">Airbnb</p>
+        </div>
+    </section>
+
+    <footer class="footer footer-section">
+        <div class="container footer-content">
+            <h3 class="footer-h3">WesTTech</h3>
+            <h3 class="footer-h32">Zambia</h3>
+            <p><small>2022 WesTTech some rights reserved</small></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -18,7 +18,7 @@ const foundersData = [
     altText: 'a picture of Kwaleyela',
     founderName: 'Kwaleyela M. Ikafa',
     job: 'IT support specialist',
-    information: 'He is an It support specialist currently learning fullstack web developement at microverse'
+    information: 'He is an It support specialist currently learning fullstack web developement at microverse',
   },
   {
     id: 2,
@@ -26,14 +26,14 @@ const foundersData = [
     altText: 'a picture of Likando',
     founderName: 'Likando Kamuya',
     job: 'IT support specialist',
-    information: 'He is an It support specialist working part time for WesTTech'
-  }
+    information: 'He is an It support specialist working part time for WesTTech',
+  },
 ];
 
 const foundersContainer = document.createElement('section');
 foundersContainer.setAttribute('class', 'founders');
 
-foundersData.forEach(founder => {
+foundersData.forEach((founder) => {
   const founderSection = document.createElement('div');
   founderSection.setAttribute('class', 'founders-section');
   founderSection.setAttribute('id', 'each-funder');
@@ -61,6 +61,11 @@ foundersData.forEach(founder => {
   founderJob.setAttribute('class', 'founder-job');
   founderJob.textContent = founder.job;
   content.appendChild(founderJob);
+
+  const dots = document.createElement('p');
+  dots.setAttribute('id', 'dots');
+  dots.textContent = '.........';
+  content.appendChild(dots);
 
   const founderInformation = document.createElement('p');
   founderInformation.setAttribute('class', 'founder-history');

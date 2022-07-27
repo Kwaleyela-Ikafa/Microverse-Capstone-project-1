@@ -199,7 +199,6 @@
 
 .about-header {
   background-image: url(./images/pexels-jessica-lewis-creative-593319.jpg);
-  /* background-color: #d3d3d3; */
   padding-top: 45px;
   padding-bottom: 25%;
   background-size: cover;
@@ -315,6 +314,18 @@
 }
 
 /* Founders Section */
+
+.founders {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.founders-section {
+  display: flex;
+}
 
 .founder-job {
   font-family: "Lato", serif;
@@ -445,5 +456,13 @@
     position: relative;
     top: 50%;
     justify-content: center;
+  }
+
+  /* Founders section */
+
+  .founders {
+    flex-direction: row;
+    margin-top: 50px;
+    height: 300px;
   }
 }

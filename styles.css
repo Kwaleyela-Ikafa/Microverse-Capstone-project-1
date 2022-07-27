@@ -134,6 +134,9 @@
 .services-section {
   background-color: #272a31;
   height: 800px;
+  background-image: url("./images/repeat-bg.png");
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .services {
@@ -193,6 +196,15 @@
 }
 
 /* About page CSS */
+
+.about-header {
+  background-image: url(./images/pexels-jessica-lewis-creative-593319.jpg);
+  /* background-color: #d3d3d3; */
+  padding-top: 45px;
+  padding-bottom: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .about-cont {
   border: 2px solid #d3d3d3;
@@ -302,6 +314,21 @@
   justify-content: center;
 }
 
+/* Founders Section */
+
+.founder-job {
+  font-family: "Lato", serif;
+  color: #ec5242;
+}
+
+.founder-history {
+  font-family: "Lato", serif;
+}
+
+.founder-name {
+  font-family: "cocogoose", sans-serif;
+}
+
 @media screen and (min-width: 768px) {
   .disappearing-nav1 {
     display: none;
@@ -371,14 +398,14 @@
   .services {
     flex-direction: row;
     position: relative;
-    top: 25%;
+    top: 15%;
   }
 
   .card-1 {
     display: flex;
     color: white;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.4);
+    background-color: #393c43b3;
     width: 300px;
   }
 
@@ -386,7 +413,7 @@
     display: flex;
     color: white;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.4);
+    background-color: #393c43b3;
     width: 300px;
   }
 
@@ -394,12 +421,13 @@
     display: flex;
     color: white;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.4);
+    background-color: #393c43b3;
     width: 300px;
   }
 
   .disappearing-btn {
-    display: none;
+    position: relative;
+    top: 30%;
   }
 
   .mobile-section {
